@@ -1,0 +1,58 @@
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Playfair Display', serif;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+      
+nav{ background-color: #000000; }
+footer nav{ background-color: black; }
+/*.jumbotron{ background-image: url("https://wallpaper-house.com/data/out/5/wallpaper2you_56234.jpg"); height:500px; margin-bottom:1.5em; }*/
+.jumbotron h1{ margin:0; padding:4%; color: white; text-shadow: 1px 1px #44475A;}
+.tagline h1{ text-transform: uppercase; margin:4% 0;}
+.page-footer{ background-color: black; }
+.card-img{ max-height:500px;  }
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating){ color: #151515; font-weight: bolder; }
+/*@media only screen and (min-width: 601px){
+	nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i { height:100px; }
+}
+#nav-mobile{ color: black; }*/
+#about p{ margin:1em; font-family: sans-serif;}
+#brand .s2 img:hover{ box-shadow: 1px 1px 1px gray;  }
+#outlet p{ font-family: sans-serif; }
+#contactus p{ margin:2em; font-size: 1.5em; }
+#logo{ max-width:50px; }
+@media only screen and (max-width: 993px ){
+	.parallax-container{ height:200px;  }
+	nav .brand-logo{ font-size:1.25em; }
+	#logo{ max-width:35px; }
+}
+@media only screen and (max-width: 600px ){
+	/*nav ul a{ font-size:0.8em;  }*/
+	nav .brand-logo{ font-size:1.25em; }
+	nav ul a{ font-size:0.8em; padding: 0 5px;}
+	#logo{ max-width:35px; }
+	#brand-logo-mobile{ display: none !important; }
+	#home-link{ display: none; }
+}
+
+@media only screen and (max-width: 699px ){
+	/*nav ul a{ font-size:0.8em;  }*/
+	#brand-logo-mobile{ display: none !important; }
+	.show-on-small .nav-wrapper{ display: flex; justify-content: center; }
+}
+
+@media only screen and (min-width: 993px ){
+	/*nav ul a{ font-size:0.8em;  }*/
+	.show-on-small{ display: none !important; }
+}
+
+@media only screen and (min-width: 1921px ){
+	/*nav ul a{ font-size:0.8em;  }*/
+	body{ width:70%; margin:0 auto; }
+}
